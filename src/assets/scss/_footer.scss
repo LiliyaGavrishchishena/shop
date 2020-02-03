@@ -1,0 +1,15 @@
+footer {
+  height: 144px;
+  background-color: $footer-color;
+  .social {
+    color: $light;
+  }
+  .text {
+    color: $light;
+    font-size: 12px;
+  }
+  .link {
+    color: $light;
+    font-size: 12px;
+  }
+}

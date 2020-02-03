@@ -1,0 +1,35 @@
+.header {
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+
+  .logo {
+    font-family: $font-stack;
+    font-size: 20px;
+    font-weight: 300;
+    color: $accent;
+    text-decoration: none;
+  }
+  .item {
+    font-family: $font-stack;
+    font-size: 14px;
+    font-weight: 600;
+    color: $menu;
+    text-decoration: none;
+  }
+  .alert {
+    position: relative;
+  }
+  .amount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $accent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-weight: 500;
+    color: $white;
+    line-height: 22px;
+    text-align: center;
+    font-size: 14px;
+  }
+}
